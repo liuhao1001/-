@@ -1,0 +1,1 @@
+package myproject.common.utils;import java.util.ArrayList;import java.util.List;/** * 一个观测实例，包含事件和时间发生的环境 */class Instance {	/**	 * 事件（类别）	 */	String label;	/**	 * 事件发生的环境集合	 */	List<String> fieldList = new ArrayList<String>();	public Instance(String label, List<String> fieldList) {		this.label = label;		this.fieldList = fieldList;	}}

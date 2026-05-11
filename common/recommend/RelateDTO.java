@@ -1,0 +1,1 @@
+package myproject.common.recommend;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;@Data@AllArgsConstructor@NoArgsConstructorpublic class RelateDTO {	/**	 * 用户id	 */	private Long useId;	/**	 * 物品id	 */	private Long itemId;	/**	 * 指数 可以是分类 可以是评分	 */	private Double index;}
